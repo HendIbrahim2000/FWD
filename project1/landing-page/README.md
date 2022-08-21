@@ -1,13 +1,9 @@
 # Landing Page Project
 
-## Table of Contents
+## Landing Page
 
-* [Instructions](#instructions)
+It's a dynamic responsive page with a dynamic navbar which is built according to sections in the page
 
-## Instructions
+## Tools
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+Using vanilla js (ES6) in addition to regular CSS and HTML

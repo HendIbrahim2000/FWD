@@ -88,6 +88,28 @@ section {
     transition: ease 0.3s all;
 }
 
+.navbar__menu .menu__link.item-active-class {
+    border-bottom: 3px solid yellow;
+    background: #333;
+    color: yellow;
+}
+
+#toggle {
+    display: none;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+#toggle span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 3px;
+    background: #fff;
+}
+
 /* Header Styles */
 .page__header {
     background: #fff;
@@ -220,4 +242,27 @@ section.your-active-class .landing__container::after {
 		           translate(-1em) 
 		           rotate(-360deg);
 	}
+}
+
+/*  Responsive navbar*/
+
+@media (max-width: 786px) {
+    .page__header {
+        background: #0b1744;
+        position: initial;
+    }
+    #toggle {
+        display: inline-block;
+    }
+    .hide {
+        display: none;
+    }
+    .navbar__menu li {
+        display: block;
+        text-align: center;
+    }
+    .navbar__menu li .menu__link {
+        color: #fff;
+        border-bottom: 1px solid #6676af;
+    }
 }
